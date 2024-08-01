@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+a {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-size: 1em;
+}
