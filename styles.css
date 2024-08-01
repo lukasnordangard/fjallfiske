@@ -21,3 +21,47 @@ p {
     font-family: 'Quicksand', Arial, sans-serif;
     font-size: 1em;
 }
+
+.topnav{
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.links {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+}
+
+.logo a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.links a:hover {
+    font-size: 1.2em;
+}
+
+.introduction-container {
+    width: 100%;
+}
+
+.introduction-container img {
+    width: 100%;
+}
+
