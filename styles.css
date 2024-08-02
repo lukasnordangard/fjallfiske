@@ -2,23 +2,25 @@ body {
     margin: 0;
 }
 
-a {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 1em;
-}
-
 h1 {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 2.5em;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 3em;
+    font-weight: 700;
 }
 
 h2 {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 1.5em;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 p {
-    font-family: 'Quicksand', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+a {
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1em;
 }
 
@@ -61,7 +63,9 @@ footer {
 .logo a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 1.5em;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.7em;
+    font-weight: 700;
 }
 
 .links a {
@@ -69,43 +73,55 @@ footer {
     align-items: center;
     color: whitesmoke;
     text-decoration: none;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.1em;
     margin-left: 5%;
     margin-right: 5%;
     transition: font-size 0.3s ease;
 }
 
 .links a:hover {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 
 /*================ Introduction ================*/
 
 .introduction-container {
-    background-image: url("imgs/introductionImg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("imgs/introductionImg.jpg");
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start; /* Start content at the top */
     align-items: center;
     width: 100%;
-    inline-size: 100%;
-    aspect-ratio: 6 / 2;
+    aspect-ratio: 12 / 5;
     object-fit: cover;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-  
-.introduction-text-container{
+
+.introduction-text-container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
+    color: whitesmoke;
+    width: 40%;
+    flex: 1;
 }
 
-.introduction-text-container{
-    color: whitesmoke;
+.introduction-svg-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
+
+.introduction-svg-container img {
+    width: 100%;
+    height: 100%;
+}
+
 
 @media screen and (max-width: 1000px) {
     .introduction-text-container h1{
