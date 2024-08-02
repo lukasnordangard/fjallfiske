@@ -14,6 +14,12 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 p {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1em;
@@ -137,9 +143,57 @@ footer {
 
 /*================ Anariset ================*/
 
+.housing-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.housing-image-item {
+    width: 40%;
+    aspect-ratio: 5 / 3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.housing-image-item img {
+    width: 100%;
+    object-fit: cover;
+}
 
+.housing-text-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.ajvin-sijte-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.anasjolagret-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fjallfuran-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
