@@ -39,14 +39,26 @@ footer {
 }
 
 
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
 .content-container{
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .content-element-container{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    max-width: 1500px;
+    margin: 5%;
 }
 
 /*================ Top nav ================*/
@@ -90,6 +102,31 @@ footer {
     font-size: 1.3em;
 }
 
+@media screen and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+
+    .topnav{
+        justify-content: center;
+    }
+    
+    .links {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .links a {
+        font-size: 1em;
+    }
+
+    .links a:hover {
+        font-size: 1.1em;
+    }
+    
+    
+}
+
 
 /*================ Introduction ================*/
 
@@ -130,14 +167,33 @@ footer {
 
 
 @media screen and (max-width: 1000px) {
+    .introduction-text-container {
+        width: 50%;
+    }
+
     .introduction-text-container h1{
-        font-size: 2em;
+        font-size: 2.5em;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .introduction-text-container {
+        width: 60%;
+    }
+
     .introduction-text-container h1{
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .introduction-text-container {
+        width: 70%;
+    }
+
+    .introduction-text-container h1{
+        font-size: 1.7em;
     }
 }
 
@@ -195,6 +251,32 @@ footer {
     justify-content: center;
 }
 
+.visit-anariset-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-anariset-btn a {
+    color: whitesmoke;
+    background-color: #0E1A2A;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    transition: font-size 0.3s ease;
+
+}
+
+.visit-anariset-btn a:hover {
+    font-size: 1.2em;
+    background-color: #223650;
+}
 
 
 
